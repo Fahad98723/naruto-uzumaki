@@ -4,11 +4,12 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 section{
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 h1{
     font-size: 50px;
     line-height: 35px;
+    margin-bottom: 0px;
 }
 h3{
     font-size: 35px;
@@ -29,6 +30,7 @@ p{
 }
 .half-width img{
     width: 100%;
+    height: 500px;
 }
 .name{
     color: #F2A30B;
@@ -44,4 +46,35 @@ p{
 }
 #home{
     background: linear-gradient( rgb(12, 47, 223,0.7),rgb(251, 228, 7,0.7)  );
+}
+#team{
+    background: linear-gradient(rgb(255, 255, 255,0.8),rgba(156, 35, 35, 0.8)), url(./images/8013.jpg) no-repeat;
+    background-size: cover;
+}
+.blue {
+    color: #0C2FDF;
+}
+#dream{
+    background: linear-gradient(#FFE182 ,black);
+}
+.hokage{
+    width: 33.33%;
+    text-align: center;
+    padding: 1%;
+}
+.hokage img{
+    width: 100%;
+    height: 500px;
+}
+.hokage h1{
+    line-height: 50px;
+}
+.hokage p{
+    color: white;
+}
+hr{
+    height: 5px;
+    background-color: black;
+    width: 20%;
+    margin-top: 10px;
 }
