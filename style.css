@@ -78,3 +78,27 @@ hr{
     width: 20%;
     margin-top: 10px;
 }
+input{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+label{
+    font-size: 25px;
+}
+#contact{
+    background:linear-gradient(rgb(255, 255, 255,0.8),rgba(156, 35, 35, 0.8)), url(./images/8009\ \(1\).jpg) no-repeat;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    display: flow-root;
+    background:linear-gradient(rgb(251, 228, 7,0.7),rgb(12, 47, 223,0.7) );
+}
